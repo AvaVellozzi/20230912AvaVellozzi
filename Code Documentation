@@ -1,0 +1,5 @@
+## Functions
+* get_coordinates function takes in the address and returns the coordinates if the location is valid
+
+## Parameters
+* address is the parameter taken into the get_coordinates function and geocode function
