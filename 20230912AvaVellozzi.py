@@ -1,5 +1,6 @@
 from geopy.geocoders import Nominatim
 
+#gets coordinates of address
 def get_coordinates(address):
     geolocator = Nominatim(user_agent="20230912AvaVellozzi")
     location = geolocator.geocode(address)
